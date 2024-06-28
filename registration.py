@@ -109,11 +109,3 @@ class Registration:
                 'Ваш пароль содержится в списке самых легких паролей')
 
         self.__password = n_p
-
-
-login = 'bukashka@mailru'
-password = 'VdbdGfbdg1&'
-
-user = Registration(login, password)
-
-print(user.login)
